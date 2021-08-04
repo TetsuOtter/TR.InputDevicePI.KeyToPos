@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net3.5</TargetFramework>
+		<LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<DebugType>none</DebugType>
+		<Authors>T R</Authors>
+		<Company>Tech Otter</Company>
+		<Description>You can move the handle to the position corresponding to the key.</Description>
+		<Copyright>Copyright 2021 Tetsu Otter</Copyright>
+		<PackageProjectUrl>https://github.com/TetsuOtter/TR.InputDevicePI.KeyToPos</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/TetsuOtter/TR.InputDevicePI.KeyToPos</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Product>KeyToPos</Product>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Mackoy.IInputDevice">
+      <HintPath>bin\libs\Mackoy.IInputDevice.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
